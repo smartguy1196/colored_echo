@@ -30,6 +30,8 @@
 
 > adding future changes to change logs
 
+> added credits to readme
+
 ###Upcoming changes:
 
 > adding screenshots
