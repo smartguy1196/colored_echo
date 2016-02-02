@@ -2,8 +2,8 @@
 
 _Current Version:_
 
-> cEcho.bat v0.0.12
+> cEcho.bat v0.0.16
 
 _Old Versions:_
 
-> _\*none so far\*_
+> cEcho.bat v0.0.12
