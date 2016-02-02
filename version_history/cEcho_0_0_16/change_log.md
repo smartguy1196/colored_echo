@@ -20,7 +20,7 @@
 
 > added links in the readme to screenshots && samples folders
 
-> added readme's to versions in version history folders
+> added readme's to versions in version folders (in version history)
 
 > updated version histories
 
