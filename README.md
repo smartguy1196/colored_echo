@@ -67,3 +67,7 @@ Can be found [here](https://github.com/smartguy1196/colored_echo/tree/master/scr
 ###Samples:
 
 Can be found [here](https://github.com/smartguy1196/colored_echo/tree/master/samples)
+
+###Credits:
+
+StackOverflow User [jeb](http://stackoverflow.com/questions/4339649/how-to-have-multiple-colors-in-a-batch-file/5344911#5344911)
