@@ -62,8 +62,8 @@ White  :  7            :  f
 
 ###Screenshots:
 
-Can be found here
+Can be found [here](https://github.com/smartguy1196/colored_echo/tree/master/screenshots)
 
 ###Samples:
 
-Can be found here
+Can be found [here](https://github.com/smartguy1196/colored_echo/tree/master/samples)
