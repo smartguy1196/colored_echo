@@ -14,6 +14,8 @@
 
 > fixed formatting errors in readme
 
+> added last version in readme
+
 > updated help reference section in readme
 
 > added screenshots && samples folders
