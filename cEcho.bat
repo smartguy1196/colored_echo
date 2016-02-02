@@ -1,4 +1,3 @@
-```
 @echo off
 setlocal EnableDelayedExpansion
 if "%~1" == "-help" goto :help
@@ -48,33 +47,49 @@ exit /b
 if "%~2" == "-s" goto :helpsyntax
 if "%~2" == "-a" goto :helppair
 if "%~2" == "-c" goto :helpreference
-call %0 "c" 0E "Echo" 08 " is used for colorizing text" 07
+call %0 "c" 0E "Echo" 08 " is used for " 07 "colorizing text" 0D
 echo(
-echo *it requires an even numbered amount of arguments to run correctly
+call %0 "**it requires an " 07 "even-numbered" 0A " amount of arguments to run correctly" 07
 echo(
-call %0 "c" 0E "Echo" 08  " references:" 07
 echo(
-call %0 "c" 0E "Echo" 08 " -help [argument]  :  [function]" 07
+call %0 "c" 0E "Echo" 08  " help references:" 0C
 echo(
-echo                    -s   :  syntax
-echo                    -a   :  argument pair syntax
-echo                    -c   :  color reference
+call %0 "c" 0E "Echo" 08 " -help " 0C "[" 04 "argument" 0A "]" 04 "  :  " 07 "[" 04 "function" 0A "]" 04
+echo(
+call %0 "                   -s" 0A "   :  " 07 "syntax" 0D
+echo(
+call %0 "                   -a" 0A "   :  " 07 "argument pair " 0A "syntax" 0D
+echo(
+call %0 "                   -c" 0A "   :  " 07 "color code " 0A "syntax" 0D
 exit /b
 
 :helpsyntax
-call %0 "c" 0E "Echo" 08 " syntax is: " 07 "c" 0E "Echo" 08 " [argument_pair1[ argument_pair2[ ...]]]" 07
+call %0 "c" 0E "Echo" 08 " syntax" 0D " is: " 07 "c" 0E "Echo" 08 " [" 04 "argument_pair1" 0A "[ " 04 "argument_pair2" 0A "[ " 04 "..." 0A "]]]" 04
 echo(
-call %0 "look at " 07 "c" 0E "Echo" 08  " -help -a for argument pair syntax" 07
+echo(
+call %0 "**look at " 07 "c" 0E "Echo" 08  " -help -a" 0C " for " 07 "argument pair" 0A " syntax" 07
 exit /b
 :helppair
-echo argument pairs use syntax [text_to_colorize] [color_code]
-call %0 "look at " 07 "c" 0E "Echo" 08  " -help -c for color code reference" 07
+call %0 "c" 0E "Echo" 08 " - argument pair" 0A " syntax" 0D " is: " 07 "[" 04 "text_to_colorize" 0A "] [" 04 "color_code" 0A "]" 04
+echo(
+echo(
+call %0 "**look at " 07 "c" 0E "Echo" 08  " -help -a" 0C " for " 07 "color code" 0A " syntax" 07
 exit /b
 :helpreference
-echo color codes have 2 characters: 1 for the background ($) and 1 for the text (#).
-echo the syntax is simple: $#
-echo here is a table of all available color codes
-echo color  :  normal_code  : bright_code
+call %0 "c" 0E "Echo" 08 " - color code" 0A " syntax" 0D ": " 07
+echo(
+echo(
+call %0 "color codes" 0A " have " 07 "2 characters" 0D ":" 07
+echo(
+call %0 "1 for the " 07 "background ($)" 9F " and 1 for the " 07 "text color (#)" 0A
+echo(
+echo(
+call %0 "color code " 0A "syntax" 0D " is simple: " 07 "[" 04 "$" 9F "#" 0A "]" 04
+echo(
+echo(
+echo **here is a table of all available color codes
+call %0 "color  :" 07 " dark_code" 08 "     : " 07 "bright_code" 0F
+echo(
 call %0 "Black  :  " 07 "0" 70 "            :  " 07 "8" 08
 echo(
 call %0 "Blue   :  " 07 "1" 71 "            :  " 07 "9" 09
@@ -91,4 +106,3 @@ call %0 "Yellow :  " 07 "6" 76 "            :  " 07 "E" 0E
 echo(
 call %0 "White  :  " 07 "7" 07 "            :  " 07 "F" 0F
 exit /b
-```
