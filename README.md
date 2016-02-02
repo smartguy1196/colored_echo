@@ -5,6 +5,10 @@ The idea is to provide batch (using batch) with coloring-capabilities
 
 _Current Version:_
 
+> cEcho.bat v0.0.16
+
+_Last Version_
+
 > cEcho.bat v0.0.12
 
 ###here is a help reference for usage:
